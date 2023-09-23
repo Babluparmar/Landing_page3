@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+
+#name{
+    color: wheat;
+    position: absolute;
+    left: 35%;
+    font-size: 8vh;
+    margin: 10px;
+}
+
+.center{
+    height: 75%;
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+.imagecontainer{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+     overflow: hidden;
+     object-fit:cover ;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 2px 5px 9px rgba(228, 223, 223, 0.1);
+}
+
+img{
+    height: 100%;
+}
+
+.text{
+    height: 100PX;
+    width: 400px;
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    overflow: hidden;
+    z-index: 99;
+    color: white;
+}
+
+.text H1{
+    font-size: 12vh;
+    position: absolute;
+    top: 110px;
+}
